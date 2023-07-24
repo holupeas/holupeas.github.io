@@ -1,0 +1,138 @@
+:root {
+    --nato: "Noto Sans";
+    --open: "Open Sans";
+    --roboto: "Roboto";
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #eee;
+    font-family: var(--nato);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1c4d52;
+    border-radius: 1rem;
+}
+
+.left {
+    background-image: linear-gradient(to bottom left, #1c4d52, #5dd1a1);
+    padding: 1rem 2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.left h4.heading {
+    font-weight: bold;
+    color: white;
+    margin: 2rem 0;
+}
+
+.left .title {
+    color: white;
+    margin: 1rem 0;
+}
+
+.left .img-user {
+    width: 150px;
+    height: 150px;
+}
+
+.left .img-user img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left .name {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.left .desc {
+    font-family: var(--roboto);
+    font-size: 14px;
+    color: white;
+    margin-top: 2rem;
+}
+
+.left ul.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left ul.contact-list li {
+    color: white;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.right {
+    background: white;
+    border-left: 4px solid #1c4d52;
+    border-radius: 0 1rem 1rem 0;
+    padding: 3rem;
+}
+
+.right h4.heading {
+    font-family: var(--nato);
+    color: #1c4d52;
+    font-weight: bold;
+    margin: 1rem 0 2rem 0;
+}
+
+.right .table-contact {
+    font-family: var(--open);
+}
+
+.right ul.edu-list {
+    /* list-style: none; */
+    padding: 0 1rem;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    padding: 1rem 10px;
+}
+
+.card-desc {
+    font-size: 13px;
+    padding: 1rem 10px;
+}
